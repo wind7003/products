@@ -16,7 +16,7 @@ public class ProductController {
 //        return  this.productService.getProductById(productId);
 //    }
 
-    @GetMapping("/product/{productId}")
+    @GetMapping("/item/{productId}")
     Product productStockCheck1(@PathVariable(value = "productId") Long productId) {
         return  this.productService.getProductById(productId);
     }
